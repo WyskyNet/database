@@ -30,6 +30,7 @@ Assert::equal([
 	'date' => new DateTime('2012-10-13'),
 	'time' => new DateTime('10:10:10'),
 	'timestamp' => new DateTime('2012-10-13 10:10:10'),
+	'timestampZone' => new DateTime('2012-10-13 09:10:10+00'),
 	'interval' => '1 year',
 	'character' => 'a                             ',
 	'character_varying' => 'a',
